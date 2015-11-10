@@ -1,0 +1,20 @@
+1. 5x2 cluster 6: 2:09.02
+   5x2 cluster 12: 1:51.30
+   4x3 cluster 12: 56:15.38
+
+2. cluster 6 5x2: 
+	AVG: .1926162791
+   
+   cluster 12:
+     5x2: .2238513514
+     4x3: 1.958150022
+     AVG: 1.09100068
+
+3. The speed up is about 18 seconds when you go from 6 processors to 12. Our 12 instance run of 5 by 2 vs the 6 instance run of the 5 by 2 showed us that running with 12 instances sped up the time by 10 seconds. We believe that this is a case of strong scaling, because strong scaling is a form of parallel computing used to make a problem run faster. Since this is a case of difference in time, we decided that this was a case of strong scaling. 
+
+4. Cluster 6: price per GB = $492.639 
+   Cluster 12: price per GB = $14.7612
+
+   We used 6 and 12 in our calculations of instances, not 7 and 13. 
+
+5. .68(3) * 7 + .68(13)*12 = $120.36
